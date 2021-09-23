@@ -19,11 +19,15 @@ layout: default
 ![Lamp Stack Diagram](https://res.cloudinary.com/practicaldev/image/fetch/s--pfrqBBqs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6xpc9lwxcpkf3as9e1vi.jpeg)
 
 
-### so now what is a Web stack?
+## About the Docker Platform:
 
-" A web stack is a solution stack or software stack, is a group of software that functions cohesively for web development."
+   Docker provides the ability to package and run an application in a  semi-loose and isolated environment, which is called a container. The isolation and security allow you to run many containers simultaneously on a given host. Containers are lightweight and contain everythin needed to run the application, so you do not need to rely on what is currently installed on the host. You can easily share containers while you work, and be sure that everyone you share with gets the same container that works in the same way, we have been expose tho this on the pertheneus server lab.
 
-Web stacks are convenient because dynamic websites can run on them without requiring anything else. All the pieces of a web stack come together to form a platform ideal for web development. For example, some highly complex applications beneficial such as WordPress run on top of LAMP Stack. LAMP Stack and other stacks like it are when creating dynamic websites and large web applications.
+* Docker provides tooling and a platform to manage the lifecycle of your containers:
+
+Develop your application and its supporting components using containers.
+The container becomes the unit for distributing and testing your application.
+When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two
 
 
 ## Installation Steps for LAMP Stack
