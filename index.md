@@ -16,7 +16,7 @@ layout: default
 
 
 ![Docker Diagram](https://res.cloudinary.com/practicaldev/image/fetch/s--pfrqBBqs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6xpc9lwxcpkf3as9e1vi.jpeg)
-[****More About Docker****](https://www.youtube.com/watch?v=rOTqprHv1YE)
+[**More About Docker**](https://www.youtube.com/watch?v=rOTqprHv1YE)
 
 
 ## About the Docker Platform:
@@ -26,8 +26,15 @@ layout: default
 * Develop your application and its supporting components using containers
 * The container becomes the unit for distributing and testing your application.
 
-## Installation Steps for 
-### Step 1
+## What can I use Docker for?
+Consider the following example scenarios:
+
+* Your developers write code locally and share their work with their colleagues using Docker containers.
+* They use Docker to push their applications into a test environment and execute automated and manual tests.
+* When developers find bugs, they can fix them in the development environment and redeploy them to the test environment for testing and validation.
+* When testing is complete, getting the fix to the customer is as simple as pushing the updated image to the production environment.
+
+### 
 
 First thing we're going to do here is we're going to update our pachages in Ubuntu, that is what we are working on and we're going to say sudo apt-get update keep putting your password and we're just going to update everything, once is done we're going to install Apache okay so we'll say sudo apt-get install apache2 ok we're going to say yes.
 
