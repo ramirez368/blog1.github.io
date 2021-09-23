@@ -4,7 +4,7 @@ layout: default
 
 
 
-[More About Docker](https://www.youtube.com/watch?v=rOTqprHv1YE).
+
 
 [//]: #  There should be whitespace between paragraphs
 
@@ -17,6 +17,9 @@ layout: default
 
 
 ![Docker Diagram](https://res.cloudinary.com/practicaldev/image/fetch/s--pfrqBBqs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6xpc9lwxcpkf3as9e1vi.jpeg)
+
+[More About Docker](https://www.youtube.com/watch?v=rOTqprHv1YE)
+
 ## About the Docker Platform:
    Docker provides the ability to package and run an application in a  semi-loose and isolated environment, which is called a container. The isolation and security allow you to run many containers simultaneously on a given host. Containers are lightweight and contain everythin needed to run the application, so you do not need to rely on what is currently installed on the host. You can easily share containers while you work, and be sure that everyone you share with gets the same container that works in the same way, we have been expose tho this on the pertheneus server lab.
 
