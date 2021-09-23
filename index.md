@@ -18,19 +18,15 @@ layout: default
 
 ![Lamp Stack Diagram](https://res.cloudinary.com/practicaldev/image/fetch/s--pfrqBBqs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6xpc9lwxcpkf3as9e1vi.jpeg)
 
-
 ## About the Docker Platform:
 
    Docker provides the ability to package and run an application in a  semi-loose and isolated environment, which is called a container. The isolation and security allow you to run many containers simultaneously on a given host. Containers are lightweight and contain everythin needed to run the application, so you do not need to rely on what is currently installed on the host. You can easily share containers while you work, and be sure that everyone you share with gets the same container that works in the same way, we have been expose tho this on the pertheneus server lab.
 
-* Docker provides tooling and a platform to manage the lifecycle of your containers:
+* Docker provides tooling and a platform to manage the lifecycle of your containers
+* Develop your application and its supporting components using containers
+* The container becomes the unit for distributing and testing your application.
 
-Develop your application and its supporting components using containers.
-The container becomes the unit for distributing and testing your application.
-When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two
-
-
-## Installation Steps for LAMP Stack
+## Installation Steps for 
 ### Step 1
 
 First thing we're going to do here is we're going to update our pachages in Ubuntu, that is what we are working on and we're going to say sudo apt-get update keep putting your password and we're just going to update everything, once is done we're going to install Apache okay so we'll say sudo apt-get install apache2 ok we're going to say yes.
