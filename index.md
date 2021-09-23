@@ -10,7 +10,7 @@ layout: default
 
 [//]: #  There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# What is LAMP Stack?
+# What is Docker?
 
 LAMP Stack is a strong web stack that has been around for quite a long time. It is relatively simple to employ because all four technologies, L (Linux), A (Apache), M (MariaDB), and P (PHP), work together well and complement one another nicely. Each of these elements falls under the FOSS category, which stands for Free Open Source Software.
 
