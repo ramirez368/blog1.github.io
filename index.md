@@ -39,19 +39,40 @@ Consider the following example scenarios:
 Docker for Windows runs on 64-bit Windows 10 Pro, Enterprise, and Education; 1511 November update, Build 10586 or later. Docker plans to support more versions of Windows 10 in the future.
 
 ## Installation Steps
-1.Download Docker from https://docs.docker.com/desktop/windows/install/
-2.Double-click InstallDocker.msi to run the installer.
-3.Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
-4.Click Finish to launch Docker.
-5.Docker starts automatically.
-6.Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
+* Download Docker from https://docs.docker.com/desktop/windows/install/
+* Double-click InstallDocker.msi to run the installer.
+* Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
+* Click Finish to launch Docker.
+* Docker starts automatically.
+* Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
 That’s it!
 
-##Verification
+## Verification
 The whale in the status bar indicates a running (and accessible via terminal) Docker instance.
 Open PowerShell or your favorite Windows terminal (e.g., Command prompt) and enter docker run hello-world.
-
 From PowerShell (or your favorite Windows terminal), check the versions of docker, docker-compose, and verify your installation:
+
+
+```
+## Top 16 docker commands
+docker ps  list running containers. 
+docker ps -a list all container including stopped container
+docker pull  download a image from Docker Hub registry. Link to the docker image is always shown on the right at dockerhub.
+docker build  is used to build your own container based on a Dockerfile. Common use is docker build . to build a container based on the Dockerfile in the current directory (the dot). docker build -t "myimage:latest" . creates a container and stores the image under the given name
+docker images or docker image ls shows all local storage images
+docker run  Run a docker container based on an image, i. e. docker run myimage -it bash. If no local image can be found docker run automatically tries to download the image from Docker hub.
+docker logs display the logs of a container, you specified. To continue showing log updates just use docker logs -f mycontainer
+docker volume ls  lists the volumes, which are commonly used for persisting data of Docker containers.
+docker network ls - list all networks available for docker container
+docker network connect adds the container to the given container network. That enables container communication by simple container name instead of IP.
+docker rm   removes one or more containers. docker rm mycontainer, but make sure the container is not running
+docker rmi  removes one or more images. docker rmi myimage, but make sure no running container is based on that image
+docker stop   stops one or more containers. docker stop mycontainer stops one container, while docker stop $(docker ps -a -q) stops all running containers. 
+docker start - starts a stopped container using the last state
+docker update --restart=no updates container policies, that is especially helpful when your container is stuck in a crash loop
+docker cp to copy files from a running container to the host or the way around. docker cp :/etc/file . to copy /etc/file to your current directory
+
+``` 
 
 ```
 ### Useful commands
