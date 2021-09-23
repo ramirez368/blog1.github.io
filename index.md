@@ -34,61 +34,39 @@ Consider the following example scenarios:
 * When developers find bugs, they can fix them in the development environment and redeploy them to the test environment for testing and validation.
 * When testing is complete, getting the fix to the customer is as simple as pushing the updated image to the production environment.
 
-### 
+### Installation of Docker in Windows 10 (That is what I have....)
+## Before some Requirements:
+Docker for Windows runs on 64-bit Windows 10 Pro, Enterprise, and Education; 1511 November update, Build 10586 or later. Docker plans to support more versions of Windows 10 in the future.
 
-First thing we're going to do here is we're going to update our pachages in Ubuntu, that is what we are working on and we're going to say sudo apt-get update keep putting your password and we're just going to update everything, once is done we're going to install Apache okay so we'll say sudo apt-get install apache2 ok we're going to say yes.
+## Installation Steps
+1.Download Docker from https://docs.docker.com/desktop/windows/install/
+2.Double-click InstallDocker.msi to run the installer.
+3.Follow the Install Wizard: accept the license, authorize the installer, and proceed with the install.
+4.Click Finish to launch Docker.
+5.Docker starts automatically.
+6.Docker loads a “Welcome” window giving you tips and access to the Docker documentation.
+That’s it!
 
+##Verification
+The whale in the status bar indicates a running (and accessible via terminal) Docker instance.
+Open PowerShell or your favorite Windows terminal (e.g., Command prompt) and enter docker run hello-world.
 
-```js
-**Linux commands For Step 1**
-sudo apt-get update 
-sudo apt-get install apache2 
+From PowerShell (or your favorite Windows terminal), check the versions of docker, docker-compose, and verify your installation:
 
 ```
-### Step 2
+### Useful commands
 Then we will open Firefox ok and we're going to go to localhost and there we go we have an Apache - default page now we can also access this anywhere on our network okay.
 
 ### Step 3
-Next we will go ahead and install PHP so we'll say sudo apt-get install php 5, say yes, after that we will restart apache with sudo /etc/init.d/apache2 restart, now I want to test it, so we'll test PHP out okay so let's do sudo nano /var/www.html/”nameofyourfile.php”
-There we’ll type <?php php echo ‘It Works’; ?> then save it on your vim editor and if you type localhost/test.php in our example in your url it should display it….It Works!
-
-
-```ruby
-**Linux commands For Steps 3**
-sudo apt-get install php 5
-sudo /etc/init.d/apache2 restart
-sudo nano /var/www.html/"nameofyourfile".php
-<?php php echo ‘It Works’; ?>
-localhost/test.php 
 
 ```
 ### Step 4
-So now we want to move on to MySQL so we're going to say sudo apt-get install mysql-server, at one point it would ask to set a root password to go to it it we do: 
-mysql -u root -p it would ask you for the root password and once entered it would take you to mysql>, from there we could create a database by doing create database testdb;
-To see it we can do show databases -> ;
 
-```ruby
-**Linux commands For Steps 4**
-sudo apt-get install mysql-server
-mysql -u root -p 
-create database testdb
-show databases -> ;
-```
 ### Step 5
-Last step would be to install the  I want to do is install PHP myadmin, so we do: 
-sudo apt-get install php myadmin, it would ask you what type of server we have, you   select apache2, it would show you the configuration and ask you to set a password for php myadmin and then your root mysql password, after all these we test it but we found a few issues.
 
-```ruby
-**Linux commands For Steps 5**
-sudo apt-get install php myadmin
-```
+
 ## Issues when Installing/Running Apache and php:
-   We found some issues when we tried to go in the url to localhost/phpMyAdmin to solve this issue we will have to edit a file so we go by typing /etc/php5/apache2.php.ini and we  need to remove the semicolon at the extension=msql.so this should be under ==Module setting== in the page. After this we will restart apache by doing:
-Sudo /etc/init.d/apache2 restart, then we reload the web browser and still having issues, so the final resolution was to edit the config file for apache by going again to:
-/etc/apache2/apache2.config and at the bottom and on the editor we add:
-Include /etc/phpMyAdmin/apache.conf and then we restart Apache and it works.
-Username should be root and the password the password that you created.
-
+  
 
 
 
