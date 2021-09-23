@@ -14,9 +14,9 @@ layout: default
 
   Docker is an open platform for developing, shipping, and running applications, it enables you to separate your applications from your company infrastructure so you can deliver software faster. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running pushing it to production.
 
-### Lamp Stack Diagram:
+### Docker Workflow:
 
-![Lamp Stack Diagram](https://res.cloudinary.com/lwgatsby/f_auto,c_scale,w_343/www/uploads/2018/02/kb-lamp-stack-1.jpg)
+![Lamp Stack Diagram](https://res.cloudinary.com/practicaldev/image/fetch/s--pfrqBBqs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6xpc9lwxcpkf3as9e1vi.jpeg)
 
 
 ### so now what is a Web stack?
