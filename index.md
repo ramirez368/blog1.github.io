@@ -12,7 +12,7 @@ layout: default
 
 # What is Docker?
 
-LAMP Stack is a strong web stack that has been around for quite a long time. It is relatively simple to employ because all four technologies, L (Linux), A (Apache), M (MariaDB), and P (PHP), work together well and complement one another nicely. Each of these elements falls under the FOSS category, which stands for Free Open Source Software.
+  Docker is an open platform for developing, shipping, and running applications, it enables you to separate your applications from your company infrastructure so you can deliver software faster. With Docker, you can manage your infrastructure in the same ways you manage your applications. By taking advantage of Docker’s methodologies for shipping, testing, and deploying code quickly, you can significantly reduce the delay between writing code and running pushing it to production.
 
 ### Lamp Stack Diagram:
 
