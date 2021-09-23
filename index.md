@@ -16,7 +16,7 @@ layout: default
 
 
 ![Docker Diagram](https://res.cloudinary.com/practicaldev/image/fetch/s--pfrqBBqs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/6xpc9lwxcpkf3as9e1vi.jpeg)
-[Video with Docker Features](https://www.youtube.com/watch?v=rOTqprHv1YE)
+[Video with More Docker.....](https://www.youtube.com/watch?v=rOTqprHv1YE)
 
 
 ## About the Docker Platform:
