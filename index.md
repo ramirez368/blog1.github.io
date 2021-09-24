@@ -57,7 +57,7 @@ PS C:\Users\username> docker-compose --version
 PS C:\Users\username> docker-machine --version
 ```
 
-# Top 16 docker commands
+## Top 16 docker commands
 ```
 **docker ps**  list running containers. 
 docker ps -a list all container including stopped container
