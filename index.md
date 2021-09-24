@@ -76,24 +76,10 @@ PS C:\Users\username> docker-machine --version
 15.	docker update --restart=no updates container policies, that is especially helpful when your container is stuck in a crash loop
 16.	docker cp to copy files from a running container to the host or the way around. docker cp :/etc/file . to copy /etc/file to your current directory.
 
-
-
-
-```
-### Useful commands
-Then we will open Firefox ok and we're going to go to localhost and there we go we have an Apache - default page now we can also access this anywhere on our network okay.
-
-### Step 3
-
-```
-
-
-
 ### I hope this was useful to how to setup and running of Docker
 
-
 ```
-Thank you readers, and wait for Blog 1 next week.
+Thank you readers, and wait for Blog 2 next week.
 For Contact e-mail me at ramirez368@hotmail.com
 
 ```
