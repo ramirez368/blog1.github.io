@@ -58,8 +58,8 @@ PS C:\Users\username> docker-machine --version
 ```
 
 ## Top 16 docker commands
-```
-_docker ps_  list running containers. 
+
+**docker** ps  list running containers.
 docker ps -a list all container including stopped container
 docker pull  download a image from Docker Hub registry. Link to the docker image is always shown on the right at dockerhub.
 docker build  is used to build your own container based on a Dockerfile. Common use is docker build . to build a container based on the Dockerfile in the current directory (the dot). docker build -t "myimage:latest" . creates a container and stores the image under the given name
@@ -76,7 +76,7 @@ docker start - starts a stopped container using the last state
 docker update --restart=no updates container policies, that is especially helpful when your container is stuck in a crash loop
 docker cp to copy files from a running container to the host or the way around. docker cp :/etc/file . to copy /etc/file to your current directory
 
-``` 
+
 
 ```
 ### Useful commands
