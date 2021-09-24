@@ -60,7 +60,7 @@ PS C:\Users\username> docker-machine --version
 ## Top 16 docker commands
 
 1.**docker ps**  list running containers.
-docker ps -a list all container including stopped container
+2. **docker ps -a** list all container including stopped container.
 docker pull  download a image from Docker Hub registry. Link to the docker image is always shown on the right at dockerhub.
 docker build  is used to build your own container based on a Dockerfile. Common use is docker build . to build a container based on the Dockerfile in the current directory (the dot). docker build -t "myimage:latest" . creates a container and stores the image under the given name
 docker images or docker image ls shows all local storage images
