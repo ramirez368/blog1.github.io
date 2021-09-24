@@ -51,11 +51,14 @@ That’s it!
 The whale in the status bar indicates a running (and accessible via terminal) Docker instance.
 Open PowerShell or your favorite Windows terminal (e.g., Command prompt) and enter docker run hello-world.
 From PowerShell (or your favorite Windows terminal), check the versions of docker, docker-compose, and verify your installation:
-
-
 ```
-## Top 16 docker commands
-docker ps  list running containers. 
+PS C:\Users\username> docker --version
+PS C:\Users\username> docker-compose --version
+PS C:\Users\username> docker-machine --version
+```
+```
+# Top 16 docker commands
+**docker ps**  list running containers. 
 docker ps -a list all container including stopped container
 docker pull  download a image from Docker Hub registry. Link to the docker image is always shown on the right at dockerhub.
 docker build  is used to build your own container based on a Dockerfile. Common use is docker build . to build a container based on the Dockerfile in the current directory (the dot). docker build -t "myimage:latest" . creates a container and stores the image under the given name
@@ -81,25 +84,10 @@ Then we will open Firefox ok and we're going to go to localhost and there we go 
 ### Step 3
 
 ```
-### Step 4
-
-### Step 5
-
-
-## Issues when Installing/Running Apache and php:
-  
 
 
 
-| Command                          | Action                            | Fix |
-|:---------------------------------|:----------------------------------|:------|
-| /etc/php5/apache2.php.ini        | Type the command to edit the file | Remove extension at extension=msql.so|
-| Sudo /etc/init.d/apache2 restart | It will restart Apache        | Not yet fixed
-| /etc/apache2/apache2.config      |  Type this to edit the file   | Include /etc/phpMyAdmin/apache.conf |
-
-
-
-### I hope this was useful to how to setup LAMP and being expose to more Linux
+### I hope this was useful to how to setup and running of Docker
 
 
 ```
