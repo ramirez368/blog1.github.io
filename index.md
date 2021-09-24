@@ -56,8 +56,9 @@ PS C:\Users\username> docker --version
 PS C:\Users\username> docker-compose --version
 PS C:\Users\username> docker-machine --version
 ```
-```
+
 # Top 16 docker commands
+```
 **docker ps**  list running containers. 
 docker ps -a list all container including stopped container
 docker pull  download a image from Docker Hub registry. Link to the docker image is always shown on the right at dockerhub.
